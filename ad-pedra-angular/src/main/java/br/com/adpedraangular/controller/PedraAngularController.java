@@ -10,8 +10,8 @@ import org.springframework.web.servlet.ModelAndView;
 public class PedraAngularController {
     
     @GetMapping
-    public ModelAndView home(){
-        var mv = new ModelAndView("home.html");
+    public ModelAndView sobre(){
+        var mv = new ModelAndView("sobre.html");
         return mv;
     }
 }
